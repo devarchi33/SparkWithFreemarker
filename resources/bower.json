@@ -1,0 +1,20 @@
+{
+  "name": "sparkwithfreemarker",
+  "version": "1.0",
+  "authors": [
+    "skyfly33 <imfly7@naver.com>"
+  ],
+  "description": "MongoDB University tiny REST Project.",
+  "license": "MIT",
+  "homepage": "https://github.com/skyfly33",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

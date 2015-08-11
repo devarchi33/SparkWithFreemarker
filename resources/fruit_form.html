@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Spark!</title>
+    <!-- style-->
+    <!--<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>-->
+    <!-- javascript-->
+    <!--<script src="bower_components/jquery/dist/jquery.js"></script>-->
+    <!--<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+<div class="container">
+    <h1>Spark Form</h1>
+
+    <form action="/favorite_fruit" method="post">
+        <p>What is your favorite fruit?</p>
+
+        <div class="btn-group" data-toggle="buttons">
+            <#list fruits as fruit>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="fruit" id="fruit" value="${fruit}" autocomplete="off">${fruit}</input>
+                    </label>
+                </div>
+            </#list>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>
